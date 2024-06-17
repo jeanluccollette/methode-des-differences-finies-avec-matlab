@@ -8,11 +8,17 @@
 
 Pour tous les problèmes traités, le domaine  $\Omega$ sera un carré de dimension $D \times D$, avec un maillage carré dont les sommets sont au nombre de $N \times N$. Le pas élémentaire du maillage sera donc $h=\dfrac{D}{N-1}$
 
+#### Conditions aux limites
+
+Pour tous les problèmes traités, des conditions aux limites de Dirichlet et de Neumann seront imposées sur chaque côté du carré. Dans les programmes proposés, les côtés où ces conditions sont imposées, sont arbitrairement fixés et seules les valeurs imposées sont paramètrables.
+
 #### Problèmes stationnaires
 
-On résoudra numériquement l'équation $-\Delta u + au = f$, avec différentes conditions 
+On résoudra numériquement l'équation $-\Delta u + au = f$, avec différentes conditions aux limites. 
 
 #### Problèmes d'évolution
+
+On résoudra numériquement l'équation de la chaleur $\dfrac{\partial u}{\partial t} = \gamma \Delta u$
 
 ## Quelques exemples
 
