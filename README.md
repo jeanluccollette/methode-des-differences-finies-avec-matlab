@@ -4,5 +4,5 @@
 
 ## Quelques exemples
 
-[](Data/df2d_propag_neumann_rk45.mp4)
+[![](Data/df2d_propag_neumann_rk45.mp4)
 
