@@ -10,7 +10,7 @@ Pour tous les problèmes traités, le domaine  $\Omega$ sera un carré de dimens
 
 #### Conditions aux limites
 
-Pour tous les problèmes traités, des conditions aux limites de Dirichlet et de Neumann seront imposées sur chaque côté du carré. Dans les programmes proposés, les côtés où ces conditions sont imposées, sont arbitrairement fixés et seules les valeurs imposées sont paramétrables.
+Pour tous les problèmes traités, des conditions aux limites de Dirichlet ou de Neumann seront imposées sur chaque côté du carré. Dans les programmes proposés, les côtés où ces conditions sont imposées, sont arbitrairement fixés et seules les valeurs imposées sont paramétrables.
 
 #### Problèmes stationnaires
 
@@ -47,6 +47,10 @@ X(t) = \begin{pmatrix}U(t)\\\dfrac{dU(t)}{dt}\end{pmatrix}
 ```
 
 ## Quelques exemples
+
+### Problèmes stationnaires
+
+### Problèmes d'évolution
 
 [![](Data/df2d_dirichlet.mp4)
 
