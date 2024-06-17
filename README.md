@@ -6,7 +6,9 @@
 
 #### Domaine $\Omega$ et maillage
 
-Pour tous les problèmes traités, le domaine  $\Omega$ sera un carré de dimension $D \times D$, avec un maillage carré dont les sommets sont au nombre de $N \times N$. Le pas spatial élémentaire du maillage sera donc $h_x=\dfrac{D}{N-1}$.
+Pour tous les problèmes traités, le domaine  $\Omega$ sera un carré de dimension $D \times D$, avec un maillage carré dont les sommets sont au nombre de $N \times N$.
+
+Le pas spatial élémentaire du maillage sera donc $h_x=\dfrac{D}{N-1}$.
 
 #### Conditions aux limites
 
