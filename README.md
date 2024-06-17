@@ -28,6 +28,8 @@ Pour l'équation des ondes, on pourra tester la méthode de Runge-Kutta d'ordre 
 
 Pour l'équation de la chaleur, on pourra calculer numériquement le rayon spectral de la matrice intervenant dans l'équation d'Euler, dans le cas implicite et explicite. 
 
+Pour chaque instant $t=nh_t$ avec un pas temporel $h_t$, on approxime le laplacien sous la forme $\Delta u \approx AU_n+B$, où $U_n$ est un vecteur rassemblant les valeurs de la fonction $u$ dans le domaine $\Omega$ carré.
+
 ## Quelques exemples
 
 [![](Data/df2d_dirichlet.mp4)
