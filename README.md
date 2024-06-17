@@ -40,10 +40,10 @@ $$U_{n+1} = \left(I-h_t\gamma A\right)^{-1}\left(\gamma \left(AU_{n+1}+B\right)\
 Pour l'équation des ondes,
 
 ```math
-X(t) = \begin{pmatrix}U(t)\\\dfrac{dU(t)}{dt}\end{bmatrix}
+X(t) = \begin{pmatrix}U(t)\\\dfrac{dU(t)}{dt}\end{pmatrix}
 ```
 ```math
-\dfrac{dX(t)}{dt} = \begin{pmatrix}\dfrac{dU(t)}{dt}\\  \gamma \left(AU(t)+B\right)\right) \end{bmatrix}
+\dfrac{dX(t)}{dt} = \begin{pmatrix}\dfrac{dU(t)}{dt}\\  \gamma \left(AU(t)+B\right)\right) \end{pmatrix}
 ```
 
 ## Quelques exemples
