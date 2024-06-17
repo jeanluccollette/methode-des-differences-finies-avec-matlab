@@ -37,13 +37,13 @@ $$U_{n+1} = \left(I+h_t\gamma A\right)U_n+h_t\gamma B$$
 et pour le schéma implicite :
 $$U_{n+1} = \left(I-h_t\gamma A\right)^{-1}\left(U_n+h_t \gamma B\right)$$
 
-Pour l'équation des ondes,
+Pour l'équation des ondes, on se ramène à la résolution numérique d'une équation différentielle ordinaire $\dfrac{dX(t)}{dt}=F(X)$, avec un vecteur d'état $X(t)$ défini ci-dessous.
 
 ```math
 X(t) = \begin{pmatrix}U(t)\\\dfrac{dU(t)}{dt}\end{pmatrix}
 ```
 ```math
-\dfrac{dX(t)}{dt} = \begin{pmatrix}\dfrac{dU(t)}{dt}\\  \gamma \left(AU(t)+B\right) \end{pmatrix}
+\dfrac{dX(t)}{dt} = \begin{pmatrix}\dfrac{dU(t)}{dt}\\  \gamma \left(AU(t)+B\right) \end{pmatrix} = F(X)
 ```
 
 ## Quelques exemples
