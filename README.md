@@ -30,7 +30,7 @@ Pour l'équation de la chaleur, on pourra calculer numériquement le rayon spect
 
 Pour chaque instant $t=nh_t$ avec un pas temporel $h_t$, on approxime le laplacien sous la forme $\Delta u \approx AU_n+B$, où $U_n$ est un vecteur rassemblant les valeurs de la fonction $u$ dans le domaine $\Omega$ carré, $A$ est une matrice et $B$ est un vecteur.
 
-$$U_{n+1} = U_n + h_t \gamma \left(AU_n+B\right)$$
+Les équations d'Euler explicite et implicites sont respectivement $U_{n+1} = U_n + h_t \gamma \left(AU_n+B\right)$ et $U_{n+1} = U_n + h_t \gamma \left(AU_{n+1}+B\right)$.
 
 ## Quelques exemples
 
