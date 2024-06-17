@@ -32,6 +32,8 @@ Pour chaque instant $t=nh_t$ avec un pas temporel $h_t$, on approxime le laplaci
 
 Les équations d'Euler explicite et implicites sont respectivement $U_{n+1} = U_n + h_t \gamma \left(AU_n+B\right)$ et $U_{n+1} = U_n + h_t \gamma \left(AU_{n+1}+B\right)$.
 
+$$U_{n+1} = (I+h_t\gamma A)U_n+h_t\gamma B$$
+
 ## Quelques exemples
 
 [![](Data/df2d_dirichlet.mp4)
