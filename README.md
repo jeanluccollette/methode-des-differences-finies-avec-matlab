@@ -96,6 +96,24 @@ gamma*ht/hx^2=1.25
 
 [![](Data/df2d_neumann.mp4)
 
+Avec l'exemple de calcul de rayons spectraux ci-dessous et dans les conditions des simulations précédentes, on peut constater que la méthode implicite, avec la matrice $\left(I-h_t\gamma A\right)^{-1}$, est stable (raypn spectral inférieur à 1), et la méthode explicite avec la matrice $\left(I+h_t\gamma A\right)$, est instable (rayon spectrale supérieur à 1).
+
+```
+>> ht=0.05;N=51;D=1;gamm=0.01;
+>> rayon_spectral(ht,N,D,gamm)
+ht=0.05  hx=0.02
+gamma*ht/hx^2=1.25
+Dirichlet
+rayon spectral de (I+ht*gamma*A)    = 8.9901
+rayon spectral de (I-ht*gamma*A)^-1 = 0.99023
+Dirichlet-Neumann
+rayon spectral de (I+ht*gamma*A)    = 8.9938
+rayon spectral de (I-ht*gamma*A)^-1 = 0.99387
+Neumann
+rayon spectral de (I+ht*gamma*A)    = 9
+rayon spectral de (I-ht*gamma*A)^-1 = 1
+```
+
 #### Equation des ondes
 
 Les programmes sont dans l'archive **df2d_evol.zip**, dossier **CODE**.
