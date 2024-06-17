@@ -4,11 +4,11 @@
 
 ## Quelques exemples
 
-[![](df2d_dirichlet.mp4)
+[![](Data/df2d_dirichlet.mp4)
 
-[![](df2d_dirichlet_neumann.mp4)
+[![](Data/df2d_dirichlet_neumann.mp4)
 
-[![](df2d_neumann.mp4)
+[![](Data/df2d_neumann.mp4)
 
 [![](Data/df2d_propag_dirichlet_rk45.mp4)
 
