@@ -37,7 +37,7 @@ $$U_{n+1} = \left(I+h_t\gamma A\right)U_n+h_t\gamma B$$
 et pour le schéma implicite :
 $$U_{n+1} = \left(I-h_t\gamma A\right)^{-1}\left(U_n+h_t\gamma B\right)$$
 
-Pour l'équation des ondes, $X(t)=\begin{pmatrix} U & V\begin{pmatrix}$
+Pour l'équation des ondes, $X(t)=\begin{pmatrix} U & V\end{pmatrix}$
 
 ## Quelques exemples
 
