@@ -96,7 +96,7 @@ gamma*ht/hx^2=1.25
 
 [![](Data/df2d_neumann.mp4)
 
-Avec l'exemple de calcul de rayons spectraux ci-dessous et dans les conditions des simulations précédentes, on peut constater que la méthode implicite, avec la matrice $\left(I-h_t\gamma A\right)^{-1}$, est stable (raypn spectral inférieur à 1), et la méthode explicite avec la matrice $\left(I+h_t\gamma A\right)$, est instable (rayon spectrale supérieur à 1).
+Avec l'exemple de calcul de rayons spectraux ci-dessous et dans les conditions des simulations précédentes, on peut constater que la méthode implicite, avec la matrice $\left(I-h_t\gamma A\right)^{-1}$, est stable (rayon spectral inférieur à 1), et la méthode explicite avec la matrice $\left(I+h_t\gamma A\right)$, est instable (rayon spectral supérieur à 1).
 
 ```
 >> ht=0.05;N=51;D=1;gamm=0.01;
