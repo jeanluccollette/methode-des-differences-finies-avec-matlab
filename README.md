@@ -18,7 +18,7 @@ On résoudra numériquement l'équation $-\Delta u + au = f$, avec différentes 
 
 #### Problèmes d'évolution
 
-On résoudra numériquement l'équation de la chaleur $\dfrac{\partial u}{\partial t} = \gamma \Delta u$
+On résoudra numériquement l'équation de la chaleur $\dfrac{\partial u}{\partial t} = \gamma \Delta u$ ainsi que l'équation des ondes $\dfrac{\partial^2 u}{\partial t^2} = \gamma \Delta u$.
 
 ## Quelques exemples
 
