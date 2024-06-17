@@ -28,7 +28,7 @@ Pour l'équation des ondes, on pourra tester la méthode de Runge-Kutta d'ordre 
 
 Pour l'équation de la chaleur, on pourra calculer numériquement le rayon spectral de la matrice intervenant dans la méthode d'Euler, dans le cas implicite et explicite. 
 
-Pour chaque instant $t=nh_t$ avec un pas temporel $h_t$, on approxime le laplacien sous la forme $\Delta u \approx AU_n+B$, où $U_n$ est un vecteur rassemblant les valeurs de la fonction $u$ dans le domaine $\Omega$ carré, $A$ est une matrice et $B$ est un vecteur.
+Pour chaque instant $t_n=nh_t$ avec un pas temporel $h_t$, on approxime le laplacien sous la forme $\Delta u \approx AU_n+B$, où $U_n$ est un vecteur rassemblant les valeurs de la fonction $u(t_n)$ dans le domaine $\Omega$ carré, $A$ est une matrice et $B$ est un vecteur.
 
 Pour l'équation de la chaleur, les équations d'Euler explicites et implicites sont respectivement $U_{n+1} = U_n + h_t \gamma \left(AU_n+B\right)$ et $U_{n+1} = U_n + h_t \gamma \left(AU_{n+1}+B\right)$.
 
