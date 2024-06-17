@@ -100,6 +100,14 @@ gamma*ht/hx^2=1.25
 
 Les programmes sont dans l'archive **df2d_evol.zip**, dossier **CODE**.
 
+```
+>> ht=0.05;N=201;D=1;T=1/(2*sqrt(2*0.01));gamm=0.01;
+>> df2d_propag_dirichlet_rk45(ht,N,D,T,gamm)
+ht=0.05  hx=0.005
+sqrt(gamma)*ht/hx=1
+    0.9997
+```
+
 [![](Data/df2d_propag_dirichlet_rk45.mp4)
 
 ```
