@@ -40,7 +40,10 @@ $$U_{n+1} = \left(I-h_t\gamma A\right)^{-1}\left(U_n+h_t\gamma B\right)$$
 Pour l'équation des ondes, $X(t)=\begin{matrix} U & V\end{matrix}$
 
 ```math
-X(t) = \begin{bmatrix}U(t)\\\dfrac{dU(t)}{di}\end{bmatrix}
+X(t) = \begin{bmatrix}U(t)\\\dfrac{dU(t)}{dt}\end{bmatrix}
+```
+```math
+\dfrac{dX(t)}{dt} = \begin{bmatrix}\dfrac{dU(t)}{dt}\\  \left(I+h_t\gamma A\right) \end{bmatrix}
 ```
 
 ## Quelques exemples
