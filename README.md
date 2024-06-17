@@ -4,9 +4,13 @@
 
 ### Problèmes traités
 
+#### Domaine $\Omega$ et maillage
+
+Pour tous les problèmes traités, le domaine  $\Omega$ sera un carré de dimension $D \times D$, avec un maillage carré dont les sommets sont au nombre de $N \times N$. Le pas élémentaire du maillage sera donc $h=\dfrac{D}{N-1}$
+
 #### Problèmes stationnaires
 
-On résoudra numériquement l'équation $-\Delta u + au = f$ dans un domaine carré de dimension $D \times D$, avec un maillage carré dont les sommets sont au nombre de $N \times N$. Le pas élémentaire du maillage sera donc $h=\dfrac{D}{N-1}$
+On résoudra numériquement l'équation $-\Delta u + au = f$, avec différentes conditions 
 
 #### Problèmes d'évolution
 
