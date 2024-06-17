@@ -6,7 +6,7 @@
 
 #### Problèmes stationnaires
 
-On résoudra numériquement l'équation $-\Delta u + au = f$ dans un domaine carré de dimension $D \cross D$
+On résoudra numériquement l'équation $-\Delta u + au = f$ dans un domaine carré de dimension $D \times D$, avec un maillage carré dont les sommets sont au nombre de $N \times N$.
 
 #### Problèmes d'évolution
 
