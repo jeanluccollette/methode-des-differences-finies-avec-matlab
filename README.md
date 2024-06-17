@@ -1,6 +1,14 @@
-# Méthode des éléments finis avec Matlab
+# Méthode des différences finies avec Matlab
 
 ## Introduction
+
+### Problèmes traités
+
+#### Problèmes stationnaires
+
+On résoudra numériquement l'équation $-\Delta u + au = f$
+
+#### Problèmes d'évolution
 
 ## Quelques exemples
 
