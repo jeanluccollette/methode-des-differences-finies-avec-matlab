@@ -6,7 +6,7 @@
 
 #### Problèmes stationnaires
 
-On résoudra numériquement l'équation $-\Delta u + au = f$
+On résoudra numériquement l'équation $-\Delta u + au = f$ dans un domaine carré de dimension $D\crossD$
 
 #### Problèmes d'évolution
 
