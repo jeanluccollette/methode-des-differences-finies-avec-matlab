@@ -43,7 +43,7 @@ Pour l'équation des ondes, on se ramène à la résolution numérique d'une éq
 X(t) = \begin{pmatrix}U(t)\\\dfrac{dU(t)}{dt}\end{pmatrix}
 ```
 ```math
-\dfrac{dX(t)}{dt} = \begin{pmatrix}\dfrac{dU(t)}{dt}\\  \gamma \left(AU(t)+B\right) \end{pmatrix} = F(X)
+\dfrac{dX(t)}{dt} = \begin{pmatrix}\dfrac{dU(t)}{dt}\\  \gamma \left(AU(t)+B\right) \end{pmatrix} = F(X(t))
 ```
 
 ## Quelques exemples
