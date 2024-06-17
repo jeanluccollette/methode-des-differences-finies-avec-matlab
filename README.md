@@ -32,8 +32,9 @@ Pour chaque instant $t=nh_t$ avec un pas temporel $h_t$, on approxime le laplaci
 
 Pour l'équation de la chaleur, les équations d'Euler explicites et implicites sont respectivement $U_{n+1} = U_n + h_t \gamma \left(AU_n+B\right)$ et $U_{n+1} = U_n + h_t \gamma \left(AU_{n+1}+B\right)$.
 
+On obtient finalement pour le schéma explicite :
 $$U_{n+1} = \left(I+h_t\gamma A\right)U_n+h_t\gamma B$$
-
+et pour le schéma implicite :
 $$U_{n+1} = \left(I-h_t\gamma A\right)^{-1}\left(U_n+h_t\gamma B\right)$$
 
 ## Quelques exemples
