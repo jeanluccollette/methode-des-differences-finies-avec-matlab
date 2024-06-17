@@ -50,10 +50,29 @@ X(t) = \begin{pmatrix}U(t)\\\dfrac{dU(t)}{dt}\end{pmatrix}
 
 ### Problèmes stationnaires
 
+Les programmes sont dans l'archive **df2d_stat.zip**, dossier **CODE**.
+
+```
+>> N=501;D=10;ul=1;gl=0;a=0;f=1;
+>> df2d_statique(N,D,ul,gl,a,f)
+```
+
 ![](Data/stat_D.png)
 ![](Data/stat_DN.png)
 
 ### Problèmes d'évolution
+
+#### Equation de la chaleur
+
+Les programmes sont dans l'archive **df2d_cha.zip**, dossier **CODE**.
+
+```
+>> resolexpl=0;ht=0.05;N=51;f=10;D=1;T=10;gamm=0.01;
+>> df2d_simu_dirichlet(resolexpl,ht,N,f,D,T,gamm)
+ht=0.05  hx=0.02
+gamma*ht/hx^2=1.25
+   10.1461
+```
 
 [![](Data/df2d_dirichlet.mp4)
 
