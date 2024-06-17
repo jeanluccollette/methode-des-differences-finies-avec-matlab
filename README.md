@@ -50,6 +50,9 @@ X(t) = \begin{pmatrix}U(t)\\\dfrac{dU(t)}{dt}\end{pmatrix}
 
 ### Problèmes stationnaires
 
+![](Data/stat_D.png)
+![](Data/stat_DN.png)
+
 ### Problèmes d'évolution
 
 [![](Data/df2d_dirichlet.mp4)
