@@ -6,11 +6,11 @@
 
 #### Domaine $\Omega$ et maillage
 
-Pour tous les problèmes traités, le domaine  $\Omega$ sera un carré de dimension $D \times D$, avec un maillage carré dont les sommets sont au nombre de $N \times N$. Le pas élémentaire du maillage sera donc $h=\dfrac{D}{N-1}$
+Pour tous les problèmes traités, le domaine  $\Omega$ sera un carré de dimension $D \times D$, avec un maillage carré dont les sommets sont au nombre de $N \times N$. Le pas spatial élémentaire du maillage sera donc $h_x=\dfrac{D}{N-1}$.
 
 #### Conditions aux limites
 
-Pour tous les problèmes traités, des conditions aux limites de Dirichlet et de Neumann seront imposées sur chaque côté du carré. Dans les programmes proposés, les côtés où ces conditions sont imposées, sont arbitrairement fixés et seules les valeurs imposées sont paramètrables.
+Pour tous les problèmes traités, des conditions aux limites de Dirichlet et de Neumann seront imposées sur chaque côté du carré. Dans les programmes proposés, les côtés où ces conditions sont imposées, sont arbitrairement fixés et seules les valeurs imposées sont paramétrables.
 
 #### Problèmes stationnaires
 
@@ -19,6 +19,14 @@ On résoudra numériquement l'équation $-\Delta u + au = f$, avec différentes 
 #### Problèmes d'évolution
 
 On résoudra numériquement l'équation de la chaleur $\dfrac{\partial u}{\partial t} = \gamma \Delta u$ ainsi que l'équation des ondes $\dfrac{\partial^2 u}{\partial t^2} = \gamma \Delta u$.
+
+Pour l'équation de la chaleur, on pourra tester les méthodes d'Euler implicites et explicites.
+
+Pour l'équation des ondes, on pourra tester la méthode de Runge-Kutta d'ordre 4.
+
+### Stabilité du schéma numérique
+
+Pour l'équation de la chaleur, on pourra calculer numériquement le rayon spectral de la matrice intervenant dans l'équation d'Euler, dans le cas implicite et explicite. 
 
 ## Quelques exemples
 
