@@ -86,9 +86,29 @@ gamma*ht/hx^2=1.25
 
 [![](Data/df2d_dirichlet_neumann.mp4)
 
+```
+>> resolexpl=0;ht=0.05;N=51;g=0;D=1;T=10;gamm=0.01;
+>> df2d_simu_neumann(resolexpl,ht,N,g,D,T,gamm)
+ht=0.05  hx=0.02
+gamma*ht/hx^2=1.25
+   10.3659
+```
+
 [![](Data/df2d_neumann.mp4)
 
+#### Equation des ondes
+
+Les programmes sont dans l'archive **df2d_evol.zip**, dossier **CODE**.
+
 [![](Data/df2d_propag_dirichlet_rk45.mp4)
+
+```
+>> ht=0.05;N=201;g=0;D=1;T=20;gamm=0.01;
+>> df2d_propag_neumann_rk45(ht,N,g,D,T,gamm)
+ht=0.05  hx=0.005
+sqrt(gamma)*ht/hx=1
+    0.2732
+```
 
 [![](Data/df2d_propag_neumann_rk45.mp4)
 
