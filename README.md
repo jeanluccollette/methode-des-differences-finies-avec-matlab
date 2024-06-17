@@ -35,7 +35,7 @@ Pour l'équation de la chaleur, les équations d'Euler explicites et implicites 
 On obtient finalement pour le schéma explicite :
 $$U_{n+1} = \left(I+h_t\gamma A\right)U_n+h_t\gamma B$$
 et pour le schéma implicite :
-$$U_{n+1} = \left(I-h_t\gamma A\right)^{-1}\left(AU_n+h_t \gamma B\right)\right)$$
+$$U_{n+1} = \left(I-h_t\gamma A\right)^{-1}\left(AU_n+h_t \gamma B\right)$$
 
 Pour l'équation des ondes,
 
