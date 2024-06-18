@@ -68,7 +68,7 @@ Les programmes sont dans l'archive **df2d_stat.zip**, dossier **CODE**.
 
 Les programmes sont dans l'archive **df2d_cha.zip**, dossier **CODE**.
 
-```
+```matlab
 >> resolexpl=0;ht=0.05;N=51;f=10;D=1;T=10;gamm=0.01;
 >> df2d_simu_dirichlet(resolexpl,ht,N,f,D,T,gamm)
 ht=0.05  hx=0.02
@@ -78,7 +78,7 @@ gamma*ht/hx^2=1.25
 
 [![](Data/df2d_dirichlet.mp4)
 
-```
+```matlab
 >> resolexpl=0;ht=0.05;N=51;f=10;g=0;D=1;T=10;gamm=0.01;
 >> df2d_simu_dirichlet_neumann(resolexpl,ht,N,f,g,D,T,gamm)
 ht=0.05  hx=0.02
@@ -88,7 +88,7 @@ gamma*ht/hx^2=1.25
 
 [![](Data/df2d_dirichlet_neumann.mp4)
 
-```
+```matlab
 >> resolexpl=0;ht=0.05;N=51;g=0;D=1;T=10;gamm=0.01;
 >> df2d_simu_neumann(resolexpl,ht,N,g,D,T,gamm)
 ht=0.05  hx=0.02
@@ -100,7 +100,7 @@ gamma*ht/hx^2=1.25
 
 Avec l'exemple de calcul de rayons spectraux ci-dessous et dans les conditions des simulations précédentes, on peut constater que la méthode implicite, avec la matrice $\left(I-h_t\gamma A\right)^{-1}$, est stable (rayon spectral inférieur à 1), et la méthode explicite avec la matrice $\left(I+h_t\gamma A\right)$, est instable (rayon spectral supérieur à 1).
 
-```
+```matlab
 >> ht=0.05;N=51;D=1;gamm=0.01;
 >> rayon_spectral(ht,N,D,gamm)
 ht=0.05  hx=0.02
@@ -120,7 +120,7 @@ rayon spectral de (I-ht*gamma*A)^-1 = 1
 
 Les programmes sont dans l'archive **df2d_evol.zip**, dossier **CODE**.
 
-```
+```matlab
 >> ht=0.05;N=201;D=1;T=1/(2*sqrt(2*0.01));gamm=0.01;
 >> df2d_propag_dirichlet_rk45(ht,N,D,T,gamm)
 ht=0.05  hx=0.005
@@ -130,7 +130,7 @@ sqrt(gamma)*ht/hx=1
 
 [![](Data/df2d_propag_dirichlet_rk45.mp4)
 
-```
+```matlab
 >> ht=0.05;N=201;g=0;D=1;T=20;gamm=0.01;
 >> df2d_propag_neumann_rk45(ht,N,g,D,T,gamm)
 ht=0.05  hx=0.005
