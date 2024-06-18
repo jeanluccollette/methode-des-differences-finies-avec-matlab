@@ -79,6 +79,7 @@ Les programmes sont dans l'archive **df2d_chal.zip**, dossier **CODE**.
 ```matlab
 >> resolexpl=0;ht=0.05;N=51;f=10;D=1;T=10;gamm=0.01;
 >> df2d_simu_dirichlet(resolexpl,ht,N,f,D,T,gamm)
+Résolution implicite
 ht=0.05  hx=0.02
 gamma*ht/hx^2=1.25
 Minimum et maximum de la fonction en fin de simulation
@@ -90,6 +91,7 @@ Minimum et maximum de la fonction en fin de simulation
 ```matlab
 >> resolexpl=0;ht=0.05;N=51;f=10;g=0;D=1;T=10;gamm=0.01;
 >> df2d_simu_dirichlet_neumann(resolexpl,ht,N,f,g,D,T,gamm)
+Résolution implicite
 ht=0.05  hx=0.02
 gamma*ht/hx^2=1.25
 Minimum et maximum de la fonction en fin de simulation
@@ -101,6 +103,7 @@ Minimum et maximum de la fonction en fin de simulation
 ```matlab
 >> resolexpl=0;ht=0.05;N=51;g=0;D=1;T=10;gamm=0.01;
 >> df2d_simu_neumann(resolexpl,ht,N,g,D,T,gamm)
+Résolution implicite
 ht=0.05  hx=0.02
 gamma*ht/hx^2=1.25
 Minimum et maximum de la fonction en fin de simulation
