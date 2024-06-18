@@ -60,7 +60,7 @@ $$
 
 ### Problèmes stationnaires
 
-Les programmes sont dans l'archive **df2d_stat.zip**, dossier **CODE**.
+Les programmes sont dans l'archive [**df2d_stat.zip**](Code/df2d_stat.zip), dossier **CODE**.
 
 ```matlab
 >> N=501;D=10;ul=1;gl=0;a=0;f=1;
