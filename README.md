@@ -41,9 +41,10 @@ $$U_{n+1} = \left(I-h_t\gamma A\right)^{-1}\left(U_n+h_t \gamma B\right)$$
 
 Pour l'équation des ondes $\dfrac{\partial^2 u}{\partial t^2} = \gamma \Delta u$, on se ramène à la résolution numérique d'une équation différentielle ordinaire $\dfrac{dX(t)}{dt}=F(X(t))$, avec un vecteur d'état $X(t)$ défini ci-dessous, où $U(t)$ est un vecteur rassemblant les valeurs de la fonction $u(t)$ aux noeuds du maillage carré dans le domaine $\Omega$.
 
-```math
+$$
 X(t) = \begin{pmatrix}U(t)\\\dfrac{dU(t)}{dt}\end{pmatrix}
-```
+$$
+
 ```math
 \dfrac{dX(t)}{dt} = \begin{pmatrix}\dfrac{dU(t)}{dt}\\  \gamma \left(AU(t)+B\right) \end{pmatrix} = F(X(t))
 ```
