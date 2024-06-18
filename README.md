@@ -54,7 +54,7 @@ X(t) = \begin{pmatrix}U(t)\\\dfrac{dU(t)}{dt}\end{pmatrix}
 
 Les programmes sont dans l'archive **df2d_stat.zip**, dossier **CODE**.
 
-```
+```matlab
 >> N=501;D=10;ul=1;gl=0;a=0;f=1;
 >> df2d_statique(N,D,ul,gl,a,f)
 ```
