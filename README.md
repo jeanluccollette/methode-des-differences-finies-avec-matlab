@@ -35,9 +35,16 @@ Pour chaque instant $t_n=nh_t$ avec un pas temporel $h_t$, on approxime le lapla
 Pour l'équation de la chaleur, les équations d'Euler explicites et implicites sont respectivement $U_{n+1} = U_n + h_t \gamma \left(AU_n+B\right)$ et $U_{n+1} = U_n + h_t \gamma \left(AU_{n+1}+B\right)$.
 
 On obtient finalement pour le schéma explicite :
-$$U_{n+1} = \left(I+h_t\gamma A\right)U_n+h_t\gamma B$$
+
+$$
+U_{n+1} = \left(I+h_t\gamma A\right)U_n+h_t\gamma B
+$$
+
 et pour le schéma implicite :
-$$U_{n+1} = \left(I-h_t\gamma A\right)^{-1}\left(U_n+h_t \gamma B\right)$$
+
+$$
+U_{n+1} = \left(I-h_t\gamma A\right)^{-1}\left(U_n+h_t \gamma B\right)
+$$
 
 Pour l'équation des ondes $\dfrac{\partial^2 u}{\partial t^2} = \gamma \Delta u$, on se ramène à la résolution numérique d'une équation différentielle ordinaire $\dfrac{dX(t)}{dt}=F(X(t))$, avec un vecteur d'état $X(t)$ défini ci-dessous, où $U(t)$ est un vecteur rassemblant les valeurs de la fonction $u(t)$ aux noeuds du maillage carré dans le domaine $\Omega$.
 
@@ -45,9 +52,9 @@ $$
 X(t) = \begin{pmatrix}U(t)\\\dfrac{dU(t)}{dt}\end{pmatrix}
 $$
 
-```math
+$$
 \dfrac{dX(t)}{dt} = \begin{pmatrix}\dfrac{dU(t)}{dt}\\  \gamma \left(AU(t)+B\right) \end{pmatrix} = F(X(t))
-```
+$$
 
 ## Quelques exemples
 
