@@ -74,7 +74,7 @@ Les programmes sont dans l'archive [**df2d_stat.zip**](Code/df2d_stat.zip), doss
 
 #### Equation de la chaleur
 
-Les programmes sont dans l'archive **df2d_chal.zip**, dossier **CODE**.
+Les programmes sont dans l'archive [**df2d_chal.zip**](Code/df2d_chal.zip), dossier **CODE**.
 
 ```matlab
 >> resolexpl=0;ht=0.05;N=51;f=10;D=1;T=10;gamm=0.01;
@@ -132,7 +132,7 @@ rayon spectral de (I-ht*gamma*A)^-1 = 1
 
 #### Equation des ondes
 
-Les programmes sont dans l'archive **df2d_evol.zip**, dossier **CODE**.
+Les programmes sont dans l'archive [**df2d_evol.zip**](Code/df2d_evol.zip), dossier **CODE**.
 
 ```matlab
 >> ht=0.05;N=201;D=1;T=1/(2*sqrt(2*0.01));gamm=0.01;
