@@ -139,7 +139,8 @@ Les programmes sont dans l'archive **df2d_evol.zip**, dossier **CODE**.
 >> df2d_propag_dirichlet_rk45(ht,N,D,T,gamm)
 ht=0.05  hx=0.005
 sqrt(gamma)*ht/hx=1
-    0.9997
+Minimum et maximum de la fonction en fin de simulation
+   -0.9979    0.9979
 ```
 
 [![](Data/df2d_propag_dirichlet_rk45.mp4)
@@ -149,7 +150,8 @@ sqrt(gamma)*ht/hx=1
 >> df2d_propag_neumann_rk45(ht,N,g,D,T,gamm)
 ht=0.05  hx=0.005
 sqrt(gamma)*ht/hx=1
-    0.2732
+Minimum et maximum de la fonction en fin de simulation
+   -0.1285    0.2646
 ```
 
 [![](Data/df2d_propag_neumann_rk45.mp4)
