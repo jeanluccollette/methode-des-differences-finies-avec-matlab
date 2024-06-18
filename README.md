@@ -74,14 +74,15 @@ Les programmes sont dans l'archive **df2d_stat.zip**, dossier **CODE**.
 
 #### Equation de la chaleur
 
-Les programmes sont dans l'archive **df2d_cha.zip**, dossier **CODE**.
+Les programmes sont dans l'archive **df2d_chal.zip**, dossier **CODE**.
 
 ```matlab
 >> resolexpl=0;ht=0.05;N=51;f=10;D=1;T=10;gamm=0.01;
 >> df2d_simu_dirichlet(resolexpl,ht,N,f,D,T,gamm)
 ht=0.05  hx=0.02
 gamma*ht/hx^2=1.25
-   10.1461
+Minimum et maximum de la fonction en fin de simulation
+   10.0000   10.1475
 ```
 
 [![](Data/df2d_dirichlet.mp4)
@@ -91,7 +92,8 @@ gamma*ht/hx^2=1.25
 >> df2d_simu_dirichlet_neumann(resolexpl,ht,N,f,g,D,T,gamm)
 ht=0.05  hx=0.02
 gamma*ht/hx^2=1.25
-   10.2163
+Minimum et maximum de la fonction en fin de simulation
+   10.0000   10.2174
 ```
 
 [![](Data/df2d_dirichlet_neumann.mp4)
@@ -101,7 +103,8 @@ gamma*ht/hx^2=1.25
 >> df2d_simu_neumann(resolexpl,ht,N,g,D,T,gamm)
 ht=0.05  hx=0.02
 gamma*ht/hx^2=1.25
-   10.3659
+Minimum et maximum de la fonction en fin de simulation
+   10.3356   10.3662
 ```
 
 [![](Data/df2d_neumann.mp4)
