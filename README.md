@@ -150,7 +150,7 @@ Minimum et maximum de la fonction en fin de simulation
    -0.9979    0.9979
 ```
 
-[![](Data/df2d_propag_dirichlet_rk45.mp4)
+https://github.com/user-attachments/assets/af4b4b56-2420-4aa6-a899-73f0e316a2f9
 
 ```matlab
 >> ht=0.05;N=201;g=0;D=1;T=20;gamm=0.01;
