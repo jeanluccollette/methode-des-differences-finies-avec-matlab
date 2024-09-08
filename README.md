@@ -105,7 +105,7 @@ Minimum et maximum de la fonction en fin de simulation
    10.0000   10.2174
 ```
 
-[![](Data/df2d_dirichlet_neumann.mp4)
+https://github.com/user-attachments/assets/5179dcd8-b980-489d-b0f1-5aafec493e14
 
 ```matlab
 >> resolexpl=0;ht=0.05;N=51;g=0;D=1;T=10;gamm=0.01;
@@ -117,7 +117,7 @@ Minimum et maximum de la fonction en fin de simulation
    10.3356   10.3662
 ```
 
-[![](Data/df2d_neumann.mp4)
+https://github.com/user-attachments/assets/3d2c5a15-ea91-457b-83fb-5ad228b640d7
 
 Avec l'exemple de calcul de rayons spectraux ci-dessous et dans les conditions des simulations précédentes, on peut constater que la méthode implicite, avec la matrice $\left(I-h_t\gamma A\right)^{-1}$, est stable (rayon spectral inférieur à 1), et la méthode explicite avec la matrice $\left(I+h_t\gamma A\right)$, est instable (rayon spectral supérieur à 1).
 
