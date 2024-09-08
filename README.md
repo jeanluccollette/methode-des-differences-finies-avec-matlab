@@ -93,9 +93,7 @@ Minimum et maximum de la fonction en fin de simulation
    10.0000   10.1475
 ```
 
-![](Data/df2d_dirichlet.mp4)
-
-![](https://github.com/jeanluccollette/methode-des-differences-finies-avec-matlab/blob/main/Data/df2d_dirichlet.mp4)
+https://github.com/user-attachments/assets/2ae04431-fe6f-4f11-ae48-f61abc55f24a
 
 ```matlab
 >> resolexpl=0;ht=0.05;N=51;f=10;g=0;D=1;T=10;gamm=0.01;
