@@ -84,8 +84,8 @@ Les programmes sont dans l'archive [**df2d_stat.zip**](Code/df2d_stat.zip), doss
 Les programmes sont dans l'archive [**df2d_chal.zip**](Code/df2d_chal.zip), dossier **CODE**.
 
 ```matlab
->> resolexpl=0;ht=0.05;N=51;f=10;D=1;T=10;gamm=0.01;
->> df2d_simu_dirichlet(resolexpl,ht,N,f,D,T,gamm)
+>> resolexpl=0;ht=0.05;N=51;ul=10;D=1;T=10;gamm=0.01;
+>> df2d_simu_dirichlet(resolexpl,ht,N,ul,D,T,gamm)
 Résolution implicite
 ht=0.05  hx=0.02
 gamma*ht/hx^2=1.25
@@ -96,8 +96,8 @@ Minimum et maximum de la fonction en fin de simulation
 https://github.com/user-attachments/assets/2ae04431-fe6f-4f11-ae48-f61abc55f24a
 
 ```matlab
->> resolexpl=0;ht=0.05;N=51;f=10;g=0;D=1;T=10;gamm=0.01;
->> df2d_simu_dirichlet_neumann(resolexpl,ht,N,f,g,D,T,gamm)
+>> resolexpl=0;ht=0.05;N=51;ul=10;gl=0;D=1;T=10;gamm=0.01;
+>> df2d_simu_dirichlet_neumann(resolexpl,ht,N,ul,gl,D,T,gamm)
 Résolution implicite
 ht=0.05  hx=0.02
 gamma*ht/hx^2=1.25
@@ -108,8 +108,8 @@ Minimum et maximum de la fonction en fin de simulation
 https://github.com/user-attachments/assets/5179dcd8-b980-489d-b0f1-5aafec493e14
 
 ```matlab
->> resolexpl=0;ht=0.05;N=51;g=0;D=1;T=10;gamm=0.01;
->> df2d_simu_neumann(resolexpl,ht,N,g,D,T,gamm)
+>> resolexpl=0;ht=0.05;N=51;gl=0;D=1;T=10;gamm=0.01;
+>> df2d_simu_neumann(resolexpl,ht,N,gl,D,T,gamm)
 Résolution implicite
 ht=0.05  hx=0.02
 gamma*ht/hx^2=1.25
